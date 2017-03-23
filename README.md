@@ -11,7 +11,8 @@ Please refer to your OS distribution docs for instructions on how to install a C
 how to generate own CA cert
 
 command line options
-how to view access/cache log 
+how to view access/cache log
+http://localhost:3128/squid-internal-mgr/info
 
 what is cached. good http servers will work without modification. most CDNs require
 to add info to rewrite.db and possibly expire.conf

@@ -12,6 +12,7 @@ COPY ca-bundle.pem /etc/squid/ca-bundle.pem
 COPY ca.pem /etc/squid/ca.pem
 
 COPY squid.conf     /etc/squid/
+COPY localnet.conf  /etc/squid/
 COPY expire.conf    /etc/squid/
 COPY custom.conf    /etc/squid/
 COPY cache.conf.tpl /etc/squid/
