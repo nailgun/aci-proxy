@@ -1,0 +1,3 @@
+^https?:\/\/github-cloud\.s3\.amazonaws\.com\/releases\/(.+)\?	http://github-cloud.s3.amazonaws.com/releases/$1
+^https?:\/\/quay-registry\.s3\.amazonaws\.com\/sharedimages\/(.+)\?	http://quay-registry.s3.amazonaws.com/sharedimages/$1
+^https?:\/\/\w+\.cloudfront\.net\/registry-v2\/docker\/registry\/v2\/blobs\/(.+)\?	http://cdn.cloudfront.net/registry-v2/docker/registry/v2/blobs/$1
