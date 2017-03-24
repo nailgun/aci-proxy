@@ -5,7 +5,7 @@
 *WARNING! Beta software! Don't use in production. But it can significantly speed up deployment of test clusters.*
 
 
-[Squid](http://www.squid-cache.org/) based http caching proxy for Docker and rkt ACI (Application Container Images). It's useful to speed up image fetching and reduce bandwith for your cluster. Unfortunately it's not tested very well so I don't recommend to use it in production setups.
+[Squid](http://www.squid-cache.org/) based http caching proxy for Docker and rkt ACI (Application Container Images). It's useful to speed up image fetching and reduce bandwidth usage of your cluster. Unfortunately it's not tested very well so I don't recommend to use it in production.
 
 Squid in this image configured to cache several ACI CDNs that are not well suited for caching and default squid configuration won't work.
 
