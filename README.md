@@ -77,4 +77,4 @@ Warning! If you will modify `rewrite.db` ensure that column delimeter is TAB cha
 
 ## Extending
 
-If you want to extend this image, add your `custom.conf` file to `/etc/squid`. It's included by [squid.conf](squid.conf).
+If you want to extend this image, add your `custom.conf` file to `/etc/squid`. It's included by [squid.conf](https://github.com/nailgun/aci-proxy/blob/master/squid.conf).
